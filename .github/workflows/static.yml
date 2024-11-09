@@ -33,11 +33,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # 指定上传的路径，仅上传项目中的 HTML、CSS、JS 和 `blogs` 目录
-          path: |
-            index.html
-            style.css
-            script.js
-            blogs/
+          path: '*'
 
       - name: Deploy to GitHub Pages
         id: deployment
