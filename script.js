@@ -1,11 +1,9 @@
-// 假设博客文件位于 blogs 目录中
-const blogFiles = ["blog1.md", "blog2.md"]; // 添加你所有的博客文件名
+const blogFiles = ["blog1.md", "blog2.md"]; // Replace with actual blog file names
 
 document.addEventListener("DOMContentLoaded", () => {
     const blogList = document.getElementById("blogList");
-    const blogContent = document.getElementById("blogContent");
 
-    // 生成左侧导航栏
+    // Generate navigation links
     blogFiles.forEach((file, index) => {
         const li = document.createElement("li");
         const a = document.createElement("a");

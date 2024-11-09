@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
+    <title>My Blog Documentation</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="header">
+        <h1>My Blog Documentation</h1>
+    </header>
     <div class="container">
         <nav class="sidebar">
-            <h2>My Blog</h2>
-            <ul id="blogList"></ul>
+            <h2>Contents</h2>
+            <ul id="blogList">
+                <!-- Links to blogs will be generated here by script.js -->
+            </ul>
         </nav>
         <main class="content">
-            <div id="blogContent">
+            <article id="blogContent">
                 <h2>Welcome to My Blog</h2>
                 <p>Select a blog post from the left to read!</p>
-            </div>
+            </article>
         </main>
     </div>
     <script src="script.js"></script>
